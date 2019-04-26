@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileimage"
+            android:src="@drawable/ic_profile"
+            android:layout_centerInParent="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/profilename"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_below="@id/profileimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MITHSIKAY"/>
+    </RelativeLayout>
+</RelativeLayout>
